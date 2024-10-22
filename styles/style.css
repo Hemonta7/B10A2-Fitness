@@ -3,6 +3,11 @@
   padding: 0;
   font-family: "Inter", sans-serif;
 }
+/* miama font  */
+@font-face {
+            font-family: 'Miama';
+            src: url('../font/Miama.otf') format('truetype');
+        }
 
 body {
   background-color: black;
@@ -88,11 +93,12 @@ body {
   font-size: 4.8rem;
   font-weight: 900;
   margin-top: 6rem;
+  line-height: 120%;
 }
 .shape {
   color: #fff;
-  font-family: Miama;
-  font-size: 78px;
+  font-family: 'Miama';
+  font-size: 7rem;
   font-weight: 400;
 }
 .banner-content-description {
@@ -100,6 +106,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   margin: 28px 0px;
+  max-width: 60%;
 }
 .button-container {
   display: flex;
@@ -204,8 +211,7 @@ font-weight: 400;
     justify-content: center;
   }
   .shape {
-    font-family: Miama;
-    font-size: 36px;
+    font-size: 3rem;
     font-weight: 400;
   }
   .banner-content {
