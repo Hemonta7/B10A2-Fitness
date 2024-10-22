@@ -1,0 +1,93 @@
+/* responsive for mobile devices */
+@media screen and (max-width: 576px) {
+    /* header related styles  */
+  .header {
+    padding-top: 20px;
+    height: 100%;
+  }
+  /* nav related styles  */
+  .navbar {
+    padding: 0 20px;
+  }
+  .nav-list {
+    display: none;
+  }
+  .hidden {
+    display: flex;
+  }
+  /* banner related styles */
+  .banner-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .shape {
+    font-size: 3rem;
+    font-weight: 400;
+  }
+  .banner-content {
+    padding-left: 20px;
+  }
+  .banner-content-tittle {
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 2.3rem;
+  }
+  .banner-content-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 28px 0px;
+  }
+  .banner-img {
+    margin: 0 auto;
+  }
+  .position-1 {
+    top: 450px;
+    right: 40px;
+  }
+  .position-1 p {
+    font-size: 10px;
+  }
+  .position {
+    bottom: 250px;
+    left: 20px;
+  }
+  .position p {
+    font-size: 10px;
+  }
+/* Change Your Habits related styles  */
+.change-container{
+    margin: 0.2rem 3.62rem ;
+}
+.change-tittle{
+    font-size: 1.6rem;
+}
+.change-img-container{
+    flex-direction: column;
+}
+/* Run Extra section related styles */
+.run-extra-container{
+    flex-direction: column;
+    margin: 0 20px;
+    padding: 1.80rem;
+    gap: 1.8rem;
+}
+.run-extra-text-title{
+    font-size: 2rem;
+}
+.join{
+    padding: 1rem 6.5rem;
+}
+/* Trainings and Exercises section */
+
+
+/* BMI Calculator chart related styles */
+.bmi-calculator-container{
+    flex-direction: column;
+    padding-left: 18px;
+    padding-top: 1.5rem;
+    gap: 2rem;
+}
+
+
+}
