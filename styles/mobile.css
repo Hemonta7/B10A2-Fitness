@@ -101,6 +101,7 @@
   padding-top: 210px;
 }
 
+/* review section related styles */
 .review-tittle{
   margin-top: 20px;
 }
@@ -109,4 +110,13 @@
   margin: 0px 20px;
 }
 
+/* footer related styles  */
+.footer-text-container{
+flex-direction: column;
+gap: 10px;
+padding: 12px 0px 2px 25px;
+}
+.footer-list-tittle{
+  padding-bottom: 15px;
+}
 }

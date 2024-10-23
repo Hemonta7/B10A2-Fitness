@@ -48,7 +48,8 @@ body {
 .run-extra-container,
 .bmi-calculator-container,
 .meet-team-container,
-.extra-review {
+.extra-review,
+.footer-container{
   max-width: 1180px;
   margin: 0 auto;
 }
@@ -357,7 +358,7 @@ font-weight: 400;
 padding-left: 1rem;
 }
 
-/* extra-review-section  */
+/* review section related styles  */
 .review-tittle{
   color: #FFF;
 font-size: 3rem;
@@ -406,4 +407,41 @@ color: #FFF;
 }
 .fa-star{
   color: orange;
+}
+
+/* footer related styles */
+.footer-text-container{
+  display: flex;
+  gap: 6.5rem;
+  padding: 4rem 0rem;
+}
+.footer-text-tittle{
+color: #E6533C;
+font-size: 4.375rem;
+font-style: italic;
+font-weight: 800;
+}
+.footer-text-description{
+color: rgba(255, 255, 255, 0.50);
+font-size: 0.875rem;
+font-weight: 400;
+width: 50px;
+}
+.footer-list-tittle{
+  color: #FFF;
+font-size: 2rem;
+font-weight: 700;
+}
+.footer-list{
+ color: rgba(255, 255, 255, 0.50);
+font-size: 1.4375rem;
+font-weight: 400;
+margin: 10px 0px;
+}
+.developer-right{
+  color: rgba(255, 255, 255, 0.50);
+font-size: 1.25rem;
+font-weight: 400;
+padding: 2rem 0rem;
+text-align: center;
 }
