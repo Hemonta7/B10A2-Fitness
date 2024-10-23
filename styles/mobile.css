@@ -101,5 +101,12 @@
   padding-top: 210px;
 }
 
+.review-tittle{
+  margin-top: 20px;
+}
+.extra-review{
+  grid-template-columns: repeat(1,1fr);
+  margin: 0px 20px;
+}
 
 }
