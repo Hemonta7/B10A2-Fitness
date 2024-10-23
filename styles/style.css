@@ -438,6 +438,7 @@ color: #E6533C;
 font-size: 4.375rem;
 font-style: italic;
 font-weight: 800;
+margin-bottom: 1.25rem;
 }
 .footer-text-description{
 color: rgba(255, 255, 255, 0.50);
@@ -449,6 +450,7 @@ width: 50px;
   color: #FFF;
 font-size: 2rem;
 font-weight: 700;
+margin-top: 0.4rem;
 }
 .footer-list{
  color: rgba(255, 255, 255, 0.50);
