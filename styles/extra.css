@@ -2,47 +2,48 @@
 .grid-container{
     display: grid;
     grid-template-columns: repeat(10,1fr);
-    grid-template-rows: repeat(10,1fr);
+    max-width: 1180px;
+    margin: 0 auto;
 }
 #photo-1{
 background-image: url("../images/exercise1.jpg");
 background-size: cover;
 background-position: center;
 grid-column: 2;
-grid-row: span 5;
+height:13.62rem;
 }
 #photo-2{
     background-image: url("../images/exercise2.png");
 background-size: cover;
 background-position: center;
 grid-column: span 6;
-grid-row: span 5;
+height:13.62rem;
 }
 #photo-3{
 background-image: url("../images/exercise3.png");
 background-size: cover;
 background-position: center;
 grid-column: span 2;
-grid-row: span 5;
+height:13.62rem;
 }
 #photo-4{
 background-image: url("../images/exercise4.png");
 background-size: cover;
 background-position: center;
 grid-column: span 5;
-grid-row: span 5;
+height:13.62rem;
 }
 #photo-5{
 background-image: url("../images/exercise5.jpg");
 background-size: cover;
 background-position: center;
 grid-column: span 3;
-grid-row: span 5;
+height:13.62rem;
 }
 #photo-6{
 background-image: url("../images/exercise6.jpg");
 background-size: cover;
 background-position: center;
 grid-column: span 2;
-grid-row: span 5;
+height:13.62rem;
 }
