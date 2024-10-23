@@ -84,9 +84,21 @@
 /* BMI Calculator chart related styles */
 .bmi-calculator-container{
     flex-direction: column;
-    padding-left: 18px;
+    padding-left: 14px;
     padding-top: 1.5rem;
     gap: 2rem;
+}
+
+/* Meet Our Team related styles  */
+.meet-team-container{
+  grid-template-columns: repeat(1,1fr);
+  margin: 0px 20px;
+}
+.grid{
+  height: 17rem;
+}
+.grid-tittle{
+  padding-top: 210px;
 }
 
 
